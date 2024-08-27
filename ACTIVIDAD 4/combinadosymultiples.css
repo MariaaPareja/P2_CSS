@@ -1,0 +1,34 @@
+/*COMBINADAS*/
+p span{ /*Este esta subordinado*/
+    color:red;
+}
+span{
+    color: blue;
+}
+
+h1~h2{/*En este caso no es necesario que exactamente este por debajo de la linea h1 osea en el siguiente renglon peero si esta algun momento debajo si funciona*/
+    color: blue;
+}
+p+h1{ /*Para que este funcion el seguno osea h1 en este caso tiene que etar debajo de la linea de p*/
+    color: white;
+}
+
+ul>li{ /*Afecta solo los li dentro de ul*/
+    color: blue;
+}
+ul ol>li{ /*Afecta los li dentro de ol dentro de li*/
+    color: red;
+}
+ul li{ /*Afecta todos li dentro*/
+    color: black;
+}
+
+/*MULTIPLES*/
+p,h1{ /*a ambas partes tienen la modificacion*/
+    color: gray;
+}
+ul,h2{
+    border: 2px solid ;
+    background-color: beige;
+}
+

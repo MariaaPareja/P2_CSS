@@ -1,0 +1,27 @@
+ul li:nth-child(3){ /*El nth-child(n) se usa para seleccionar uno de los elementos*/
+    color:blue;
+}
+
+ul li:first-child{ /*El first-child se usa para seleccionar el primer de los elementos*/
+    color:blue;
+}
+
+ul li:last-child{ /*El last-child se usa para seleccionar el primer de los elementos*/
+    color:blue;
+}
+
+ul li:nth-child(odd){ /*El li:nth-child(odd) se usa para seleccionar elementos impares*/
+    color:red;
+}
+
+ul li:nth-child(even){ /*El nth-child(even) se usa para seleccionar elementos pares*/
+    color:blue;
+}
+
+input:focus{ /*Cuando entra al cuadro de texto ocurren lo modelado*/
+    background-color: blue;
+}
+
+ul:hover{ /*Cuando pasa el mouse por ahi*/
+    background-color: gray;
+}
