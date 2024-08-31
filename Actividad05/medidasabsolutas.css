@@ -1,79 +1,64 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Página 3 - Ejemplos de Medidas Absolutas</title>
-    <link rel="stylesheet" href="medidasabsolutas.css">
-    <style>
-        /* Agregamos bordes para visualizar claramente el tamaño de cada div */
-        div {
-            border: 2px solid black;
-            margin: 10px 0;
-            text-align: center;
-            line-height: 1.5;
-            overflow: hidden; /* Para manejar contenido que exceda el tamaño del div */
-        }
+/* Medidas en píxeles (px) */
+.div-px-1 {
+    width: 300px;
+    height: 200px;
+    background-color: lightblue;
+}
 
 
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-    </style>
-</head>
-<body>
-    <h1>Ejemplos de Medidas Absolutas en CSS</h1>
-    
-    <h2>Medidas en píxeles (px)</h2>
-    <!-- Este div tiene una medida fija de 300px de ancho por 200px de alto -->
-    <div class="div-px-1">
-        <img src="https://via.placeholder.com/150" alt="Imagen de ejemplo">
-        <p>Esta es una imagen dentro de un div de 300px x 200px.</p>
-    </div>
-    
-    <!-- Este div tiene una medida fija de 150px de ancho por 150px de alto -->
-    <div class="div-px-2">
-        <p>Div pequeño de 150px x 150px.</p>
-    </div>
-    
-    <!-- Este div tiene una medida fija de 500px de ancho por 100px de alto -->
-    <div class="div-px-3">
-        <p>Div más ancho con 500px x 100px.</p>
-    </div>
-    
-    <h2>Medidas en centímetros (cm)</h2>
-    <!-- Este div tiene una medida fija de 10cm de ancho por 5cm de alto -->
-    <div class="div-cm-1">
-        <img src="https://via.placeholder.com/200" alt="Imagen de ejemplo">
-        <p>Imagen en un div de 10cm x 5cm.</p>
-    </div>
-    
-    <!-- Este div tiene una medida fija de 7cm de ancho por 4cm de alto -->
-    <div class="div-cm-2">
-        <p>Div con 7cm x 4cm.</p>
-    </div>
-    
-    <!-- Este div tiene una medida fija de 15cm de ancho por 8cm de alto -->
-    <div class="div-cm-3">
-        <p>Div grande con 15cm x 8cm.</p>
-    </div>
-    
-    <h2>Medidas en pulgadas (in)</h2>
-    <!-- Este div tiene una medida fija de 2in de ancho por 1in de alto -->
-    <div class="div-in-1">
-        <img src="https://via.placeholder.com/50" alt="Imagen de ejemplo">
-        <p>Imagen en un div de 2in x 1in.</p>
-    </div>
-    
-    <!-- Este div tiene una medida fija de 3in de ancho por 2in de alto -->
-    <div class="div-in-2">
-        <p>Div con 3in x 2in.</p>
-    </div>
-    
-    <!-- Este div tiene una medida fija de 5in de ancho por 3in de alto -->
-    <div class="div-in-3">
-        <p>Div grande con 5in x 3in.</p>
-    </div>
-</body>
-</html>
+.div-px-2 {
+    width: 150px;
+    height: 150px;
+    background-color: lightgreen;
+}
+
+
+.div-px-3 {
+    width: 500px;
+    height: 100px;
+    background-color: lightcoral;
+}
+
+
+/* Medidas en centímetros (cm) */
+.div-cm-1 {
+    width: 10cm;
+    height: 5cm;
+    background-color: lightyellow;
+}
+
+
+.div-cm-2 {
+    width: 7cm;
+    height: 4cm;
+    background-color: lightpink;
+}
+
+
+.div-cm-3 {
+    width: 15cm;
+    height: 8cm;
+    background-color: lightgray;
+}
+
+
+/* Medidas en pulgadas (in) */
+.div-in-1 {
+    width: 2in;
+    height: 1in;
+    background-color: lightblue;
+}
+
+
+.div-in-2 {
+    width: 3in;
+    height: 2in;
+    background-color: lightgreen;
+}
+
+
+.div-in-3 {
+    width: 5in;
+    height: 3in;
+    background-color: lightcoral;
+}
