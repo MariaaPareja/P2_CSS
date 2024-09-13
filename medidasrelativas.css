@@ -1,0 +1,50 @@
+/* Establecer el tamaño de fuente para el elemento raíz usando rem */
+html {
+    font-size: 16px; /* Tamaño base de 16px para rem */
+}
+
+/* Usar rem para establecer el tamaño de fuente del encabezado h1 */
+h1 {
+    font-size: 2rem; /* 2 veces el tamaño de fuente base (32px) */
+    color: #FF5733; /* Color naranja oscuro */
+}
+
+/* Usar em para establecer el tamaño de fuente del párrafo */
+p {
+    font-size: 1.5em; /* 1.5 veces el tamaño de fuente del elemento padre */
+    color: #28A745; /* Color verde */
+}
+
+/* Usar % para establecer el ancho del contenedor */
+.container {
+    width: 80%; /* 80% del ancho del elemento padre */
+    background-color: #007BFF; /* Color azul */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Usar em para establecer el tamaño del botón */
+button {
+    font-size: 1em; /* Tamaño de fuente igual al tamaño del texto del elemento padre */
+    background-color: #FFC107; /* Color amarillo */
+    color: #FFFFFF; /* Texto en blanco */
+    border: 2px solid #FF5733; /* Borde naranja oscuro */
+    padding: 10px 20px; /* Espaciado interno */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+}
+
+/* Usar % para establecer el margen del párrafo */
+p {
+    margin: 5%; /* Margen del 5% alrededor del párrafo */
+}
+
+/* Establecer el color del texto para enlaces usando rem */
+a {
+    color: #6F42C1; /* Color púrpura */
+    text-decoration: none; /* Sin subrayado */
+}
+
+/* Cambiar el color de los enlaces al pasar el ratón */
+a:hover {
+    text-decoration: underline; /* Subrayar el enlace al pasar el ratón */
+}

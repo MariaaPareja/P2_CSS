@@ -1,0 +1,36 @@
+/* Establecer el color del texto para el encabezado h1 usando código hexadecimal */
+h1 {
+    color: #FF5733; /* Color naranja oscuro */
+}
+
+/* Establecer el color del texto para los párrafos usando código hexadecimal */
+p {
+    color: #28A745; /* Color verde */
+}
+
+/* Establecer el color de fondo para un contenedor usando código hexadecimal */
+.container {
+    background-color: #007BFF; /* Color azul */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Establecer el color de fondo para un botón usando código hexadecimal */
+button {
+    background-color: #FFC107; /* Color amarillo */
+    color: #FFFFFF; /* Texto en blanco */
+    border: 2px solid #FF5733; /* Borde naranja oscuro */
+    padding: 10px 20px; /* Espaciado interno */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+}
+
+/* Establecer el color del texto para enlaces usando código hexadecimal */
+a {
+    color: #6F42C1; /* Color púrpura */
+    text-decoration: none; /* Sin subrayado */
+}
+
+/* Cambiar el color de los enlaces al pasar el ratón */
+a:hover {
+    text-decoration: underline; /* Subrayar el enlace al pasar el ratón */
+}

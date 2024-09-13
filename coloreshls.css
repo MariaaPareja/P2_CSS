@@ -1,0 +1,36 @@
+/* Establecer el color del texto para el encabezado h1 usando HSL */
+h1 {
+    color: hsl(0, 100%, 50%); /* Rojo puro */
+}
+
+/* Establecer el color del texto para los párrafos usando HSL */
+p {
+    color: hsl(120, 100%, 40%); /* Verde */
+}
+
+/* Establecer el color de fondo para un contenedor usando HSL */
+.container {
+    background-color: hsl(210, 100%, 50%); /* Azul */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+/* Establecer el color de fondo para un botón usando HSL */
+button {
+    background-color: hsl(60, 100%, 50%); /* Amarillo */
+    color: hsl(0, 0%, 100%); /* Texto en blanco */
+    border: 2px solid hsl(0, 100%, 50%); /* Borde rojo */
+    padding: 10px 20px; /* Espaciado interno */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+}
+
+/* Establecer el color del texto para enlaces usando HSL */
+a {
+    color: hsl(300, 100%, 50%); /* Púrpura */
+    text-decoration: none; /* Sin subrayado */
+}
+
+/* Cambiar el color de los enlaces al pasar el ratón */
+a:hover {
+    text-decoration: underline; /* Subrayar el enlace al pasar el ratón */
+}
