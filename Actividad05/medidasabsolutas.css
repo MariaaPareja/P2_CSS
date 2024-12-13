@@ -1,0 +1,64 @@
+/* Medidas en píxeles (px) */
+.div-px-1 {
+    width: 300px;
+    height: 200px;
+    background-color: lightblue;
+}
+
+
+.div-px-2 {
+    width: 150px;
+    height: 150px;
+    background-color: lightgreen;
+}
+
+
+.div-px-3 {
+    width: 500px;
+    height: 100px;
+    background-color: lightcoral;
+}
+
+
+/* Medidas en centímetros (cm) */
+.div-cm-1 {
+    width: 10cm;
+    height: 5cm;
+    background-color: lightyellow;
+}
+
+
+.div-cm-2 {
+    width: 7cm;
+    height: 4cm;
+    background-color: lightpink;
+}
+
+
+.div-cm-3 {
+    width: 15cm;
+    height: 8cm;
+    background-color: lightgray;
+}
+
+
+/* Medidas en pulgadas (in) */
+.div-in-1 {
+    width: 2in;
+    height: 1in;
+    background-color: lightblue;
+}
+
+
+.div-in-2 {
+    width: 3in;
+    height: 2in;
+    background-color: lightgreen;
+}
+
+
+.div-in-3 {
+    width: 5in;
+    height: 3in;
+    background-color: lightcoral;
+}

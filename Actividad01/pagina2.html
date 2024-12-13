@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS en cabecera</title>
+    <style>
+        /* Estilos para el header */
+        header {
+            background-color: #444;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        header div {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 0;
+        }
+        
+        nav {
+            margin-top: 10px;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        nav ul li {
+            display: inline;
+            margin-right: 15px;
+        }
+        
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+
+
+        /* Estilos para el main */
+        main {
+            padding: 20px 0;
+            background: white;
+        }
+        
+        section {
+            padding: 20px;
+        }
+        
+        #inicio {
+            background-color: #f9f9f9;
+        }
+        
+        h2 {
+            color: #333;
+        }
+        
+        p {
+            color: #666;
+            font-size: 1.1em;
+        }
+
+
+        /* Estilos para los artículos */
+        article {
+            margin-bottom: 20px;
+        }
+        
+        h3 {
+            color: #444;
+        }
+
+
+        /* Estilos para el aside */
+        aside {
+            background: #eee;
+            padding: 10px;
+            margin: 20px auto;
+        }
+        
+        aside h4 {
+            color: #444;
+        }
+
+
+        /* Estilos para el footer */
+        footer {
+            background-color: #444;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        
+        footer div {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div>
+            <h1>Título del Tema</h1>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#informacion">Información</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+
+    <main>
+        <section id="inicio">
+            <div>
+                <h2>Introducción</h2>
+                <p>Este es un párrafo introductorio sobre el tema. Aquí puedes dar una visión general de lo que trata el tema y captar la atención del lector.</p>
+            </div>
+        </section>
+
+
+        <section id="informacion">
+            <div>
+                <h2>Información Detallada</h2>
+                <article>
+                    <h3>Subtema 1</h3>
+                    <p>Aquí se discute el primer subtema con detalles relevantes.</p>
+                </article>
+
+
+                <article>
+                    <h3>Subtema 2</h3>
+                    <p>Aquí se discute el segundo subtema, proporcionando información adicional.</p>
+                </article>
+            </div>
+        </section>
+
+
+        <aside>
+            <div>
+                <h4>Nota Relacionada</h4>
+                <p>Este es un recuadro de información adicional o una cita relevante relacionada con el tema principal.</p>
+            </div>
+        </aside>
+    </main>
+
+
+    <footer>
+        <div>
+            <p>&copy; 2024 Información sobre un Tema. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
